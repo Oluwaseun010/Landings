@@ -224,7 +224,7 @@ section .about p {
   content: "";
   inset: 0;
   background-size: cover;
-  background-image: url(/image/chefs-bg.jpg);
+  background-image: url(image/chefs-bg.jpg);
   position: absolute;
   opacity: 0.4;
   background-position: 56%;
@@ -316,7 +316,7 @@ section .about p {
   content: "";
   inset: 0;
   background-size: cover;
-  background-image: url(/image/testimonials-bg.jpg);
+  background-image: url(image/testimonials-bg.jpg);
   position: absolute;
   opacity: 0.2;
   background-position: 56%;
@@ -623,7 +623,6 @@ footer{
 .copyright{
   color: #f1f1f1;
 }
-
 
 
 

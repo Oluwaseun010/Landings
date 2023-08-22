@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/image/logo.jpg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oluwaseun Food Banner</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="banner">
+      <div class="header">
+        <div class="head">
+          <div class="top">
+            <h1>OLUWASEUN RESTAURANT</h1>
+            <img src="/image/logo.png" alt="logo">
+          </div>
+          <a href="#">HOME</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">CONTACT</a>
+          <a href="#">GALLARY</a>
+          <a href="#">MENU</a>
+          <button type="button">RESERVATION</button>
+        </div>
+      </div>
+      <img src="/image/new_food.jpg" alt="Oluwaseun Food Banner">
+      <div class="banner-content">
+        <h1>Welcome to Our Food Paradise</h1>
+        <p>Indulge in the most delectable dishes that will tantalize your taste buds.</p>
+        <div class="flex-top">
+          <button class="btn" type="button">OUR MENU</button>
+          <button class="btn" type="button">RESERVATION</button>
+
+        </div>
+        <div class="word-down">
+          <h3>FOOD TASTE BETTER WHEN MAKE BY PROFESSIONAL</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="flex-down">
+      <div class="about">
+        <h3>About</h3>
+        <p>At OLUWASEUN, we invite you to embark on a gastronomic journey like no other. Our culinary haven is a fusion
+          of
+          passion, creativity, and a deep appreciation for fine dining. Nestled in the heart of Africa, we have been
+          delighting diners with our exceptional cuisine and warm ambiance.</p>
+      </div>
+      <div class="about" id="history">
+        <h3>History</h3>
+        <p>Established in 1800, OLUWASEUN has a rich history rooted in a love for food and a commitment to exceptional
+          service. Over the years, we've become a beloved dining destination for locals and visitors alike. Our journey
+          began with
+          a simple goal: to create a haven where food enthusiasts could gather, savor delectable dishes, and create
+          lasting
+          memories.
+
+          Join us at OLUWASEUN and immerse yourself in a world of culinary delight. Reserve your table today to
+          experience
+          the perfect blend of flavors, ambiance, and hospitality.</p>
+      </div>
+      <div class="about">
+        <h3>Cuisine that Dazzles</h3>
+        <p>Our menu is a symphony of flavors inspired by both classic and contemporary culinary traditions. From
+          sumptuous
+          starters
+          to exquisite main courses, each dish is a masterpiece crafted with the finest ingredients and an artistic
+          touch.
+          Whether
+          you're a fan of savory delights or have a sweet tooth that craves satisfaction, our diverse menu promises to
+          tantalize
+          your taste buds.</p>
+      </div>
+    </div>
+    <!--
+    <div class="interior">
+
+      <ul>
+        <li>
+          <h1>Some photos from <span>Our Restaurant</span> </h1>
+          <a href="/"><img src="/img/gallery/g2.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/g3.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/g4.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/g5.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/gallery-1.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/gallery-2.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/gallery-3.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/gallery-4.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/gallery-5.jpg" alt="gallery1"></a>
+          <a href="#"><img src="/img/gallery/gallery-6.jpg" alt="gallery1"></a>
+
+        </li>
+      </ul>
+    </div>
+    -->
+    <div class="top_design">
+      <h2>Check out special</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores dicta alias itaque.</p>
+    </div>
+
+    <div class="tab">
+      <button class="tablinks" onmouseover="openCity(event, 'London')">Burger</button>
+      <button class="tablinks" onmouseover="openCity(event, 'chicken_and_Potatos')">Chicken and Potatos</button>
+      <button class="tablinks" onmouseover="openCity(event, 'Grid_chicken')">Grid chicken</button>
+      <button class="tablinks" onmouseover="openCity(event, 'Pizza')">Pizza</button>
+      <button class="tablinks" onmouseover="openCity(event, 'Pack')">Burger and Drink</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+      <h3>Burger</h3>
+      <img src="/image/burger.jpg" alt="">
+    </div>
+
+    <div id="chicken_and_Potatos" class="tabcontent">
+      <h3>Chicken and Potatos</h3>
+      <img src="/image/chicken_and_Potatos.jpg" alt="">
+    </div>
+
+    <div id="Grid_chicken" class="tabcontent">
+      <h3>Grid Chicken</h3>
+      <img src="/image/Grid_chicken.jpg" alt="">
+    </div>
+
+    <div id="Pizza" class="tabcontent">
+      <h3>Pizza</h3>
+      <img src="/image/Pizza.jpg" alt="">
+    </div>
+    <div id="Pack" class="tabcontent">
+      <h3>Burger and Drink</h3>
+      <img src="/image/Pack.jpg" alt="">
+    </div>
+
+    <div class="clearfix"></div>
+
+
+    <div class="chef">
+      <h1 id="ch">Our Proffesional <span>Chefs</span></h1>
+      <h3>"In the kitchen, we can create magic. In the dining room, we can weave memories. A restaurant is where
+        artistry meets
+        hospitality."</h3>
+      <div class="chef-details">
+        <img src="/image/chef-1.jpg" alt="chef">
+        <div class="space">
+          <h4>Walter White</h4>
+          <h6>Master Chef</h6>
+        </div>
+
+        <img src="/image/chef-2.jpg" alt="chef">
+        <div class="space" id="second">
+          <h4>Stone Anderson</h4>
+          <h6>Patissier</h6>
+        </div>
+        <img src="/image/chef-3.jpg" alt="chef">
+        <div class="space" id="third">
+          <h4>William Anderson</h4>
+          <h6>Cook</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="founder">
+      <h2>FOUNDER</h2>
+      <img src="/image/founder.jpg" alt="">
+      <h3>Oluwaseun</h3>
+      <h5>Restaurant owner</h5>
+      <p>"A restaurant is a place where people come together to share stories, celebrate occasions, and create lasting
+        memories.
+        It's a privilege to be a part of those moments."</p>
+    </div>
+
+    <div class="menu-high">
+      <h2>Check our Tasty Menu</h2>
+
+      <div class="menu">
+        <div class="list">
+          <a href="/"><span>Pizza</span>......................... #1500</a>
+          <p>Lorem ipsum dolor sit.</p>
+
+          <a href="/"><span>Chicken grill</span>..................... #1500</a>
+          <p>Lorem ipsum dolor sit.</p>
+          <a href="/"><span>Fry Chicken</span>.................... #1500</a>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="list" id="second-list">
+          <a href="/"><span>Beef</span>......................... #1500</a>
+          <p>Lorem ipsum dolor sit.</p>
+
+          <a href="/"><span>Pork</span>..................... #6500</a>
+          <p>Lorem ipsum dolor sit.</p>
+          <a href="/"><span>Bugger and coke</span>.................... #7500</a>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="reservation">
+      <h3>Book a Table</h3>
+      <form action="\">
+
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="date" placeholder="date" required>
+        <input type="time" placeholder="Time" required>
+        <input type="number" placeholder="Number of people" required>
+        <textarea name="description" class="textarea" cols="100" rows="10" placeholder="Message"></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-sub">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Your Email" required><br>
+        <input type="tel" placeholder="Subject" required><br>
+        <textarea name="description" class="textarea" cols="100" rows="10" placeholder="Message"></textarea><br>
+        <button type="submit">Send Message</button>
+      </div>
+      <div class="contact-details">
+        <div class="open-hour">
+          <h3>Open-Hour</h3>
+          <p>Monday-Saturday:</p>
+          <p>09:00 AM - 11:00 PM</p>
+        </div>
+        <div class="open-hour">
+          <h3>Email</h3>
+          <p>adeotioluwaseun225@gmail.com</p>
+          <p>adeotioluwaseun225@gmail.com</p>
+        </div>
+        <div class="open-hour">
+          <h3>Call:</h3>
+          <p>+234 806 980 5968 </p>
+          <p>+234 811 113 6583</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="top" id="bottom">
+      <h1>OLUWASEUN RESTAURANT</h1>
+      <img src="/image/logo.png" alt="logo">
+      <p>"A restaurant is a place where people come together to share stories, celebrate occasions, and create lasting
+        memories.
+        It's a privilege to be a part of those moments."</p>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Oluwaseun</span></strong>. All Rights Reserved
+      </div>
+
+
+      <h4>Design by : <span> Oluwaseun</span></h4>
+    </div>
+
+
+  </footer>
+
+
+</body>
+
+</html>
